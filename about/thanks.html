@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>Thanks!</title>
+  <!-- Enable HTTPS-->
+  <script type="text/javascript">
+    var host = "dreamcreator108.com";
+	var cn_host = "dreamcreator108.cn";
+    if (((host == window.location.host) || (cn_host == window.location.host)) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+  </script>
+  <!-- End Enable HTTPS-->
+<link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="./css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="theme-color" content="#ff6d6b">
+<link href="./css/demo.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="./css/sticky-navigation.css" />
+<link rel="icon" href="../favicon.ico">
+<!------ js ------>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/responsiveslides.min.js"></script>
+<!------ js ------>
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="./js/move-top.js"></script>
+		<script type="text/javascript" src="./js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+<script>
+$(function() {
+
+	// grab the initial top offset of the navigation 
+	var sticky_navigation_offset_top = $('#sticky_navigation').offset().top;
+	
+	// our function that decides weather the navigation bar should have "fixed" css position or not.
+	var sticky_navigation = function(){
+		var scroll_top = $(window).scrollTop(); // our current vertical position from the top
+		
+		// if we've scrolled more than the navigation, change its position to fixed to stick to top, otherwise change it back to relative
+		if (scroll_top > sticky_navigation_offset_top) { 
+			$('#sticky_navigation').css({ 'position': 'fixed', 'top':0, 'left':0 });
+		} else {
+			$('#sticky_navigation').css({ 'position': 'relative' }); 
+		}   
+	};
+	
+	// run our function on load
+	sticky_navigation();
+	
+	// and run it again every time you scroll
+	$(window).scroll(function() {
+		 sticky_navigation();
+	});
+	
+	// NOT required:
+	// for this demo disable all links that point to "#"
+	$('a[href="#"]').click(function(event){ 
+		event.preventDefault(); 
+	});
+	
+});
+</script>
+
+<!--- fonts --->
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300italic,400,700,900,300italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,900,800,700,600,500,300,100' rel='stylesheet' type='text/css'>
+<!--- fonts --->
+
+</head>
+<body>
+<!---->
+<div class="about" id="about">
+  <h3>信息成功提交，感谢留言！</h3>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <center><p>我会尽快回复消息至你所提供的邮箱里，请注意查收哦～</p></center>
+  <center><p>·········继续了解我，请点击下方的“KE”按钮。</p></center>
+  <p>&nbsp;</p>
+</div>
+<!---->
+<section id="main"><!---->
+<div class="fotter">
+	 <div class="scale"></div>
+</div>
+	 <div class="music"><center><a href="index.html"><img src="//main.source.dreamcreator108.com%2Fke%2Fimages%2Fftr.logo.png" alt=""/></a><p>&nbsp;</p><p>&nbsp;</p><p>&copy&nbsp;2017&nbsp;Ke&nbsp;|&nbsp;<a href="//dreamcreator108.com/">&nbsp;Dreamcreator108</a></p></center></div>
+<!---->
+</section>	
+<!---->
+</body>
+</html>

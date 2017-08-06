@@ -1,0 +1,424 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>About Me</title>
+  <!-- Enable HTTPS-->
+  <script type="text/javascript">
+    var host = "dreamcreator108.com";
+	var cn_host = "dreamcreator108.cn";
+    if (((host == window.location.host) || (cn_host == window.location.host)) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+  </script>
+  <!-- End Enable HTTPS-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="theme-color" content="#ff6d6b">
+<link rel="stylesheet" href="css/sticky-navigation.css" />
+<link rel="icon" href="../../favicon.ico">
+<!------ js ------>
+<script src="js/jquery.min.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<!------ js ------>
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+<script>
+$(function() {
+
+	// grab the initial top offset of the navigation 
+	var sticky_navigation_offset_top = $('#sticky_navigation').offset().top;
+	
+	// our function that decides weather the navigation bar should have "fixed" css position or not.
+	var sticky_navigation = function(){
+		var scroll_top = $(window).scrollTop(); // our current vertical position from the top
+		
+		// if we've scrolled more than the navigation, change its position to fixed to stick to top, otherwise change it back to relative
+		if (scroll_top > sticky_navigation_offset_top) { 
+			$('#sticky_navigation').css({ 'position': 'fixed', 'top':0, 'left':0 });
+		} else {
+			$('#sticky_navigation').css({ 'position': 'relative' }); 
+		}   
+	};
+	
+	// run our function on load
+	sticky_navigation();
+	
+	// and run it again every time you scroll
+	$(window).scroll(function() {
+		 sticky_navigation();
+	});
+	
+	// NOT required:
+	// for this demo disable all links that point to "#"
+	$('a[href="#"]').click(function(event){ 
+		event.preventDefault(); 
+	});
+	
+});
+</script>
+
+<!--- fonts --->
+<link href='//fonts.lug.ustc.edu.cn/css?family=Lato:100,300italic,400,700,900,300italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.lug.ustc.edu.cn/css?family=Raleway:400,200,900,800,700,600,500,300,100' rel='stylesheet' type='text/css'>
+<!--- fonts --->
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', '<%= theme.google_analytics %>', 'auto', {'allowLinker': true});
+ga('require', 'linker');
+ga('linker:autoLink', ['dreamcreator108.droppages.com'] );
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+</head>
+<body>
+<!---->
+<div id="demo_top_wrapper">
+	<div id="demo_top">
+			<div class="header" id="home">
+				<div class="logo">
+				<a href="#"><img src="//source.dreamcreator108.com/ke%2Fimages%2Flogo.png" alt=""/></a>
+				</div>
+			</div>
+	 </div>
+	 <div id="sticky_navigation_wrapper">
+		 <div id="sticky_navigation">
+			  <div class="top-menu">
+				 <div class="container">
+						<a href="#home"><h4>KE</h4></a>
+						<span class="menu"> </span>
+						<ul>
+						<li><a class="scroll" href="#about">ABOUT</a></li>
+						<li><a class="scroll" href="#blog">DESIGN WORKS</a></li>
+						<li><a class="scroll" href="#clients">MOTTO</a></li>
+						<li><a class="scroll" href="#contact">CONTACT</a></li>	
+                        <li><a class="scroll" >SHURANGAMA MANTRA</a></li>		 
+						<div class="clearfix"></div>
+						</ul>
+					 <div class="clearfix"></div>
+				 </div>
+			  </div>
+		 </div>
+	 </div>
+</div>
+<!---->
+<section id="main">
+<div class="about" id="about">
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+	 <h3>WELCOME TO MY WORLD</h3>
+	 <div class="container">
+		 <div class="about-grids">
+			 <div class="col-md-6 about-info">		
+				 <h4>Short Story</h4>
+				  <label></label>
+				 <p>2010.6-2010.12
+                    <br />深圳国际印象建筑设计有限公司
+                 <br />助理/Assistant Shenzhen Int-Inpress Design
+                 <br />2011.1-2012.3
+                 <br />英国罗麦庄马上海事务所
+                 <br />助理/Assistant RMJM Shanghai Office
+                 <br />2013.6-2016
+                 <br />上海吴韦建筑咨询有限公司
+                 <br />建筑师 /Architect NWA Shanghai</p>
+                 <p><br />Proficient:CAD/Sketchup/Photoshop/Microsoft offices/Illustrator/InDdsign 
+                 <br />Limited:Revit/Rhino/Grasshopper
+                 <br />Language:CET-6/Mandrain 
+                 <br />Train:Green building consulting engineer (Vantage 2013)
+                 <br />Academic Background:
+                 <br />Interior Design.2004-2006
+                 <br />Bachelor Degree in Architecture.2007-2010</p>
+			 </div> 
+			 <div class="col-md-6 about-skill">
+				 <h4>Experience</h4>
+				  <label></label>
+				  <p><i>参与项目的规模</i></p>
+					<div class="skill-grid1">
+						 <div class="skill-bar">
+						 <div class="info"><p>超大</p><i>20%</i></div>						 
+						 </div>
+						 <div class="icon"><img src="//source.dreamcreator108.com/ke%2Fimages%2Fskil.png"></div>
+						 <div class="clearfix"></div>
+					 </div>
+					 <div class="clearfix"></div>
+					 <div class="skill-grid2">
+						 <div class="skill-bar2">
+						 <div class="info2"><p>大型</p><i>50%</i></div>
+						 <div class="clearfix"></div>
+						 </div>
+						 <div class="icon"><img src="//source.dreamcreator108.com/ke%2Fimages%2Fskil.png"></div>
+						 <div class="clearfix"></div>
+					 </div>
+					 <div class="clearfix"></div>
+					 <div class="skill-grid3">
+						 <div class="skill-bar3">
+						 <div class="info3"><p>普通</p><i>30%</i></div>
+						 <div class="clearfix"></div>
+						 </div>
+						 <div class="icon"><img src="//source.dreamcreator108.com/ke%2Fimages%2Fskil.png"></div>
+						 <div class="clearfix"></div>
+					 </div>
+                     <p>&nbsp;</p>
+                     <p><i>参与项目的类型</i></p>
+                     					 <div class="skill-grid3">
+						 <div class="skill-bar4">
+						 <div class="info3"><p>文化</p><i>10%</i></div>
+						 <div class="clearfix"></div>
+						 </div>
+						 <div class="icon"><img src="//source.dreamcreator108.com/ke%2Fimages%2Fskil.png"></div>
+						 <div class="clearfix"></div>
+					 </div>
+                     					 <div class="skill-grid3">
+						 <div class="skill-bar4">
+						 <div class="info3"><p>商业</p><i>30%</i></div>
+						 <div class="clearfix"></div>
+						 </div>
+						 <div class="icon"><img src="//source.dreamcreator108.com/ke%2Fimages%2Fskil.png"></div>
+						 <div class="clearfix"></div>
+					 </div>
+                     					 <div class="skill-grid3">
+						 <div class="skill-bar4">
+						 <div class="info3"><p>办公</p><i>20%</i></div>
+						 <div class="clearfix"></div>
+						 </div>
+						 <div class="icon"><img src="//source.dreamcreator108.com/ke%2Fimages%2Fskil.png"></div>
+						 <div class="clearfix"></div>
+					 </div>
+                     					 <div class="skill-grid3">
+						 <div class="skill-bar4">
+						 <div class="info3"><p>住宅</p><i>25%</i></div>
+						 <div class="clearfix"></div>
+						 </div>
+						 <div class="icon"><img src="//source.dreamcreator108.com/ke%2Fimages%2Fskil.png"></div>
+						 <div class="clearfix"></div>
+					 </div>
+                     					 <div class="skill-grid3">
+						 <div class="skill-bar4">
+						 <div class="info3"><p>综合体</p><i>10%</i></div>
+						 <div class="clearfix"></div>
+						 </div>
+						 <div class="icon"><img src="//source.dreamcreator108.com/ke%2Fimages%2Fskil.png"></div>
+						 <div class="clearfix"></div>
+					 </div>
+                     					 <div class="skill-grid3">
+						 <div class="skill-bar4">
+						 <div class="info3"><p>酒店度假</p><i>5%</i></div>
+						 <div class="clearfix"></div>
+						 </div>
+						 <div class="clearfix"></div>
+					 </div>
+			 </div>
+          
+		 </div>			 
+	 </div>
+	  <a></a>
+</div>	
+<!---->
+<div class="blog" id="blog">
+	 <h3>DESIGN WORKS</h3>
+	 <small></small>
+	 <p><i>Involved Projects</i></p>
+	 <div class="container">	
+		 <div class="blog-top" id="top-sec">
+			 <div class="blog-img">
+				<img src="//source.dreamcreator108.com/ke%2Fimages%2Fimg1.jpg" alt="" class="img-responsive" />
+			 </div>
+			 <div class="img-desc">
+				 <h4>上海国际舞蹈中心</h4>
+				 <span></span>
+				 <p>这是一个为舞蹈艺术的表演教育提供平台的集合体。我们融合基地上现有的历史建筑，发展了“桥”的设计理念，力图打造一个连接大众、发展滋养舞蹈艺术的新型社区。<br />&nbsp;<br />工作内容：主要负责剧院设计，平面设计和图解，发展设计概念。</p>
+				 <span></span>
+					<a class="date" href="#blog">文化</a>
+                    <!-- Link >
+					<div class="caption">
+						<a href="#blog"><img src="./images/link.png" alt=""/></a>
+					</div>
+					<div class="dmnd"></div>
+                    < End Link -->				
+			 </div>
+		 </div>
+		 <div class="blog-top" id="top-sec">
+			 <div class="blog-img">
+				<img src="//source.dreamcreator108.com/ke%2Fimages%2Fimg2.jpg" alt="" class="img-responsive" />
+			 </div>
+			 <div class="img-desc" >
+				 <h4>武汉综合体</h4>
+				 <span></span>
+				 <p>武汉南区新开发的沿湖商业办公酒店住宅多功能综合体。<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />工作内容：规划，扩初图纸。</p>
+					<span></span>
+					<a class="date" href="#blog">综合体</a>
+                    <!-- Link >
+					<div class="caption">
+						<a href="#blog"><img src="./images/link.png" alt=""/></a>
+					</div>
+					<div class="dmnd"></div>
+                    < End Link -->				
+			 </div>
+		 </div>
+		 <div class="clearfix"></div>
+		 
+		 <div class="blog-top" id="bottom-sec">		 
+			 <div class="img-desc blog-sec" >
+				<h4>苏州度假村</h4>
+				<span></span>
+				 <p>坐落于苏州风景秀美之地的度假村，包括多项服务功能，我们致力于创造一个适合大多数访客自足自乐的综合酒店设施。<br />&nbsp;<br />&nbsp;<br />工作内容：规划，方案设计。</p>
+				 <span></span>
+				  <a class="date" href="#blog">度假酒店</a>
+                   <!-- Link >
+				   <div class="caption2">
+						<a href="#blog"><img src="./images/link.png" alt=""/></a>
+					</div>
+					<div class="dmnd2"></div>
+                   < End Link -->	
+			 </div>
+			 <div class="blog-img img-sec">
+				<img src="//source.dreamcreator108.com/ke%2Fimages%2Fimg3.jpg" alt="" class="img-responsive" />
+			 </div>		 
+		 </div>		 
+		 
+		 <div class="blog-top" id="bottom-sec">		 
+			 <div class="img-desc blog-sec" >
+				<h4>上海翡翠苑别墅</h4>
+				<span></span>
+				 <p>江湾翡翠苑建筑体以尊重自然、追求真实的艺术形式为宗旨，运用法国古典建筑形式和风格特征，规整的造型，中轴对称，景观严谨、庄重，无论从视觉与心理上都给于人安详尊贵、舒适的现实感与庄严感。<br />&nbsp;<br />工作内容：建模，扩初图纸。</p>
+				 <span></span>
+				  <a class="date" href="#blog">别墅</a>
+                  <!-- Link >
+				   <div class="caption2">
+						<a href="#blog"><img src="./images/link.png" alt="Shanghai Jadeyard"/></a>
+					</div>
+					<div class="dmnd2"></div>	
+                  < End Link -->	
+			 </div>
+			 <div class="blog-img img-sec">
+				<img src="//source.dreamcreator108.com/ke%2Fimages%2Fimg4.jpg" alt="Shanghai Jadeyard" class="img-responsive" />
+			 </div>		 
+		 </div>	
+		 <div class="clearfix"></div>
+         </br>&nbsp;
+         <marquee class="exp" scrollamount="3">深圳市盐田区市容整修维护工程&nbsp;&nbsp;Renovation of Yantian District in Shenzhen.&nbsp;&nbsp;南京华为研究发展中心&nbsp;&nbsp;Nanjing Huawei R&D Campus&nbsp;&nbsp;江湾新城&nbsp;&nbsp;Jiangwan Newtown（LEED Certificated）&nbsp;&nbsp;江苏广电总部&nbsp;&nbsp;JSBC Headquraters&nbsp;&nbsp;印尼龙目岛度假村规划&nbsp;&nbsp;Resort of Lombok Indonesia&nbsp;&nbsp;上海张江中区办公楼&nbsp;&nbsp;Zhangjiang Offices&nbsp;&nbsp;武汉幸福海住宅社区&nbsp;&nbsp;Wuhan Happiness Community&nbsp;&nbsp;天津五大道街坊商业中心&nbsp;&nbsp;Tianjin 5th Avenue Commerical Center&nbsp;&nbsp;陕西信达广场立面改造&nbsp;&nbsp;Facades Renovation of Xinda Plazza</marquee>
+	 </div>
+</div>
+<!---->
+         <p>&nbsp;</p>
+<div class="client" id="clients">
+		 <h3>MY MOTTO</h3>
+		 <small></small>
+		 <script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+		  // Slideshow 1
+		  $("#slider1").responsiveSlides({
+			 auto: true,
+			 nav: true,
+			 speed: 600,
+			 namespace: "callbacks",
+		  });
+		});
+	  </script>
+	  <div class="container2">
+			<div class="slider">
+				<ul class="rslides" id="slider1">
+				 <li>
+				 <div class="person1"></div>
+				 <div class="about-add-grid">
+                 <p>但愿众生得离苦,不为自己求安乐。</p>
+                 <p>假使身止， 诸苦毒中， 我行精进， 忍终不悔。</p>	 
+                 <p>即彼一一微尘之内，皆有虚空；是诸虚空，莫不悉以容受为相。</p>
+				 </div>
+				 <div class="clearfix"></div>
+			  </li>	
+			  <li>
+				 <div class="person2"></div>
+				 <div class="about-add-grid">
+				 <p>南无东方喻月世界一切花香自在王如来</p>
+                     <p>其有得闻一切花香自在王如来名者。净心信乐持讽诵者。</p>
+					<p>斯人等所生之处。当得恒沙戒香具足。一切妙香香气遍熏。诸佛刹土众戒具满。</p> 
+				 </div>
+				 <div class="clearfix"></div>
+			  </li>	
+              <li>
+				 <div class="person3"></div>
+				 <div class="about-add-grid">
+                 <p>愿我化作楞严咒，片片飞到有情处。</p>
+                 <p>愿我得佛，忆我有情，心得正受。</p>
+				 <p>愿我得佛，我忆有情，究竟安乐。</p>	 
+				 </div>
+				 <div class="clearfix"></div>
+			  </li>	
+              <li>
+				 <div class="person4"></div>
+				 <div class="about-add-grid">
+                 <p>诸行无常、诸法无我、涅槃寂静。</p>
+                 <p>十力、四无所畏、十八不共法、三十二相、八十种好。</p>
+				 <p>设我得佛，十方众生，至心信乐，欲生我国，乃至十念，若不生者，不取正觉。唯除五逆，诽谤正法。——南无阿弥陀佛 </p>	 
+				 </div>
+				 <div class="clearfix"></div>
+			  </li>	
+              <li>
+				 <div class="person5"></div>
+				 <div class="about-add-grid">
+                 <p>香象渡河，截断众流。</p>
+                 <p>人生是梦说梦那知仍呓语，世间多假弄假谁能不当真。</p>
+				 <p>桌面圆圆,人也团圆。也无聚散,也无常。若心常相印,何处不周旋。但愿此情长久,哪里分地北天南。</p>	 
+				 </div>
+				 <div class="clearfix"></div>
+			  </li>	
+			 </ul>		
+			</div>
+	  </div>
+</div>
+<!---->
+  <script>
+        var d = new Date();
+		var m = d.getMinutes();
+		if (m == 0 || m == 5 ||m == 10||m == 15||m == 20||m == 25||m == 30||m == 35||m == 40||m == 45||m == 50||m == 55)
+        {
+        document.getElementById("home").style.backgroundImage = "url(//source.dreamcreator108.com/ke%2Fimages%2Fbanner" + m + ".jpg)";
+        }
+		else
+        {
+        document.getElementById("home").style.backgroundImage = "url(//i.imgur.com/8XmACe9.jpg)";
+        }
+  </script>
+<!---->
+<div class="contact text-center" id="contact">
+	<h3>CONTACT ME</h3>
+	<i class="line"></i>
+	<p>联系我，可以用下面的表格给我留言。</p>
+	<form method="post" action="//formspree.io/keyuan@dreamcreator108.com">
+	<input type="text"  name="name"  placeholder="Name" required/>
+	<input type="text"  name="_replyto"  placeholder="E-mail" required/>
+	<textarea  name="message" placeholder="Message"></textarea>
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="hidden" name="_next" value="about/ke/thanks.html" />
+	<input type="submit" value="Send"/>
+	</form>
+</div>
+<!---->
+<div class="fotter">
+	 <div class="scale"></div>
+</div>
+     <div class="music"><center><audio autoplay="autoplay" controls="controls"loop="loop">
+    <source src="https://source.dreamcreator108.com/backgroundmusic%2Fkemusic.ogg" />
+    <source src="https://source.dreamcreator108.com/backgroundmusic%2Fkemusic.mp3" />
+</audio></center></div>
+<!---->
+</section>	
+<!---->
+</body>
+</html>
