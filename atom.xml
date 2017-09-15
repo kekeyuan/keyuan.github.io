@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ke.chaos.run/"/>
-  <updated>2017-09-15T12:05:26.370Z</updated>
+  <updated>2017-09-15T12:09:27.352Z</updated>
   <id>https://ke.chaos.run/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>cloud</title>
+    <link href="https://ke.chaos.run/posts/cloud/"/>
+    <id>https://ke.chaos.run/posts/cloud/</id>
+    <published>2017-09-15T12:07:59.000Z</published>
+    <updated>2017-09-15T12:09:27.352Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://i.imgur.com/Z6jMfE4.jpg" alt="yun"></p>
+<p><img src="https://i.imgur.com/xWBh7UJ.jpg" alt="yun"></p>
+<a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Z6jMfE4.jpg&quot; alt=&quot;yun&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/xWBh7UJ.jpg&quot; alt=&quot;yun&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="山生出了云" scheme="https://ke.chaos.run/categories/%E5%B1%B1%E7%94%9F%E5%87%BA%E4%BA%86%E4%BA%91/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>20170915 开开心心 充满希望</title>
