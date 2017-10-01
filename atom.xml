@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ke.chaos.run/"/>
-  <updated>2017-09-30T11:38:41.299Z</updated>
+  <updated>2017-10-01T14:07:07.945Z</updated>
   <id>https://ke.chaos.run/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20171001对！</title>
+    <link href="https://ke.chaos.run/posts/20171001/"/>
+    <id>https://ke.chaos.run/posts/20171001/</id>
+    <published>2017-10-01T13:41:53.000Z</published>
+    <updated>2017-10-01T14:07:07.945Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://i.imgur.com/5fGmbW0g.jpg" alt="chifan"><br>袁珂，吃饭！</p>
+<a id="more"></a>
+<p><img src="https://i.imgur.com/jwoosUx.jpg" alt="chifan"></p>
+<p>昨天一场苦逼之后，半夜我在被窝里发奋，觉得既然别人不靠谱，那我要自己系统的学习佛法，怎么学呢。突然就想到自己以前收拾书的时候有过感悟，佛教图书分类法那概括了所有的佛法书籍啊，对于如何学习佛法总有指导。里面有‘佛教史地’这个大分类，可能还受了师父前几天讲‘宗义是佛教哲学史’的金句影响，我就想从历史学起。</p>
+<p>今早就从架子上，以一位优雅的佛教图书馆管理员的姿态，轻车熟路找到一本《印度佛教史》，看了前两章，对佛教产生前印度的地理环境、人种、政治经济、社会思想状态有了大致了解，学习了佛祖一生大致的各种轰烈事迹，以及佛教教理的要点。</p>
+<p>在这个过程中有幸得到了师父的指点，找到了更靠谱更权威更经典的佛教历史书籍，汤用彤先生的《汉魏两晋南北朝佛教史》、吕澂先生的《印度佛教源流略讲》、《中国佛教源流略讲》，师父说前两本以后在历史上会成为经典之作，他读过十几遍。于是后面刚好接上《印度佛教源流略讲》直接学习佛教在印度的各个发展时期，其学说的变化，等等，今天才学了原始佛学部分一点点。</p>
+<p>师父问我学了什么感受，我憋了憋，想着师父就在眼前，努力的去表达一下自己稚嫩的想法吧，就说:”我学了一点点，感觉这些经典,像《阿含经》它本身是有自己发展变化的，看的时候要带自己的脑子，不能经典说什么，就是什么。”师父置地有声的背对着我说了句。“对！”“不过水平高的人是这样，一般人看不出来。”哈哈哈，小的好得瑟。<br>然后还给我举了个小例子。</p>
+<p>开心的不得了，但当你觉得自己行的时候，就是自己最不行的时候，莫骄傲。</p>
+<p>嘿嘿</p>
+<p>加油加油</p>
+<p>皈依三宝</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/5fGmbW0g.jpg&quot; alt=&quot;chifan&quot;&gt;&lt;br&gt;袁珂，吃饭！&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>20170930莫为他人做嫁衣 奋斗自己的希望</title>
@@ -572,38 +601,6 @@
     </summary>
     
       <category term="黑夜里的星" scheme="https://ke.chaos.run/categories/%E9%BB%91%E5%A4%9C%E9%87%8C%E7%9A%84%E6%98%9F/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://ke.chaos.run/posts/hello-world/"/>
-    <id>https://ke.chaos.run/posts/hello-world/</id>
-    <published>2017-08-11T10:38:48.000Z</published>
-    <updated>2017-08-11T10:38:48.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<a id="more"></a>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo server&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
     
     
   </entry>
